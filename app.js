@@ -48,7 +48,7 @@ function fadeOut() {
       clearInterval(fadeOutInterval)
       fadeIn()
     }
-  }, 50)
+  }, 30)
 }
 
 function fadeIn() {
@@ -60,5 +60,5 @@ function fadeIn() {
       clearInterval(fadeInInterval)
       button.disabled = false
     }
-  }, 50)
+  }, 30)
 }
